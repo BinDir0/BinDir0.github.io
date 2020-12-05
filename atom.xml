@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://Bindir0.github.io</id>
+    <id>https://bindir0-github-io.vercel.app</id>
     <title>BinDir0 的博客</title>
-    <updated>2020-11-22T04:27:05.392Z</updated>
+    <updated>2020-12-05T09:33:02.338Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://Bindir0.github.io"/>
-    <link rel="self" href="https://Bindir0.github.io/atom.xml"/>
+    <link rel="alternate" href="https://bindir0-github-io.vercel.app"/>
+    <link rel="self" href="https://bindir0-github-io.vercel.app/atom.xml"/>
     <subtitle>如果结果不如你所愿，那就在尘埃落定前奋力一搏。</subtitle>
-    <logo>https://Bindir0.github.io/images/avatar.png</logo>
-    <icon>https://Bindir0.github.io/favicon.ico</icon>
+    <logo>https://bindir0-github-io.vercel.app/images/avatar.png</logo>
+    <icon>https://bindir0-github-io.vercel.app/favicon.ico</icon>
     <rights>All rights reserved 2020, BinDir0 的博客</rights>
     <entry>
         <title type="html"><![CDATA[新博客正在建设中 /kel]]></title>
-        <id>https://Bindir0.github.io/post/xin-bo-ke-zheng-zai-jian-she-zhong-kel/</id>
-        <link href="https://Bindir0.github.io/post/xin-bo-ke-zheng-zai-jian-she-zhong-kel/">
+        <id>https://bindir0-github-io.vercel.app/post/xin-bo-ke-zheng-zai-jian-she-zhong-kel/</id>
+        <link href="https://bindir0-github-io.vercel.app/post/xin-bo-ke-zheng-zai-jian-she-zhong-kel/">
         </link>
         <updated>2020-11-21T15:50:17.000Z</updated>
     </entry>
