@@ -2,12 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bindir0-github-io.vercel.app</id>
     <title>BinDir0 的博客</title>
-    <updated>2020-12-05T13:02:59.292Z</updated>
+    <updated>2021-04-15T14:46:10.091Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bindir0-github-io.vercel.app"/>
     <link rel="self" href="https://bindir0-github-io.vercel.app/atom.xml"/>
     <subtitle>如果结果不如你所愿，那就在尘埃落定前奋力一搏。</subtitle>
     <logo>https://bindir0-github-io.vercel.app/images/avatar.png</logo>
     <icon>https://bindir0-github-io.vercel.app/favicon.ico</icon>
-    <rights>All rights reserved 2020, BinDir0 的博客</rights>
+    <rights>All rights reserved 2021, BinDir0 的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[CQOI2021 游记]]></title>
+        <id>https://bindir0-github-io.vercel.app/post/cqoi2021-you-ji/</id>
+        <link href="https://bindir0-github-io.vercel.app/post/cqoi2021-you-ji/">
+        </link>
+        <updated>2021-04-15T14:39:12.000Z</updated>
+    </entry>
 </feed>

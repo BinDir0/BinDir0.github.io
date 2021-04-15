@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>CQOI2021 游记 | BinDir0 的博客</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://bindir0-github-io.vercel.app/favicon.ico?v=1618497966865">
+<link rel="stylesheet" href="https://bindir0-github-io.vercel.app/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="一次失败的考试，一次惨痛的经历，一个深刻的教训。
+不要头铁。
+upd: 记得算空间的时候不要忘了 ×4\times 4×4（longlong ×8\times 8×8）！！1
+Day -2 ~ Day 0
+这次省选在我们学校搞，不用跑到外面..." />
+    <meta name="keywords" content="游记" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://bindir0-github-io.vercel.app">
+        <img src="https://bindir0-github-io.vercel.app/images/avatar.png?v=1618497966865" class="site-logo">
+        <h1 class="site-title">BinDir0 的博客</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      如果结果不如你所愿，那就在尘埃落定前奋力一搏。
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://bindir0-github-io.vercel.app/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">CQOI2021 游记</h2>
+            <div class="post-date">2021-04-15</div>
+            
+              <div class="feature-container" style="background-image: url('https://bindir0-github-io.vercel.app/post-images/cqoi2021-you-ji.jpg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>一次失败的考试，一次惨痛的经历，一个深刻的教训。</p>
+<p>不要头铁。</p>
+<p>upd: 记得算空间的时候不要忘了 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">\times 4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">×</span><span class="mord">4</span></span></span></span>（longlong <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo><mn>8</mn></mrow><annotation encoding="application/x-tex">\times 8</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">×</span><span class="mord">8</span></span></span></span>）！！1</p>
+<h3 id="day-2-~-day-0">Day -2 ~ Day 0</h3>
+<p>这次省选在我们学校搞，不用跑到外面，爽（</p>
+<p>打板子。黄队对着 NOI 大纲整理了 45 个板子，够三天打的了。</p>
+<p>好多算法忘光了，重新捡起来了一遍。</p>
+<p>Day 0 晚上跟外校大佬聊了半晚上，感慨还是挺多的。NOIP 落后队线 70 多分，这次 CQOI 应该也只是打着玩玩吧。不过万一能翻呢，万一...</p>
+<h3 id="day-1">Day 1</h3>
+<p>神 jiangly 来送考了，还亲自发了一波旺仔牛奶（（（</p>
+<p>进场没给密码，先码一个 NTT 板子。我不信今年没有多项式题。</p>
+<p>8:25 的时候 NTT 板子刚好打完，也下发了密码。看一波题感觉 A 很傻逼，B 有点思维，C 不太会，于是先写了一波 C 的 16 分暴力，然后开 A。</p>
+<p>感性理解一波觉得 A 可以直接枚举左端点，右端点的限制只有四种情况，可以 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><mi>log</mi><mo>⁡</mo><mi>n</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(\log n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span><span class="mclose">)</span></span></span></span> 算出来。然后就快乐开写。</p>
+<p>写到大概 9:36 的样子机房突然停电，还是我们学校主办的，丢人（）。趁这个时间想一波 B，想了个 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">m = 2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">m</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span> 的错误贪心。</p>
+<p>9:51 左右又来电了，但是因为交换机比较菜，开机什么的又开了五分钟。再写写调调 A，期间监考老师通知延时 30min。<s>好鵺</s></p>
+<p>11:00 左右 A 过了三个大样例，于是挂了个 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>n</mi><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">n^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span> 暴力 dp 拍着（考试降智没想到 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>m</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">m^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> 的傻逼做法，我是真的蠢比），然后去搞搞 B。</p>
+<p>B 先把停电时的错误贪心给码出来了，没跑过样例，再细想一波发现根本不对。手推一下搞出了一个二分答案的做法（其实也是错的），准备开敲。然后 A 题出锅了！！1而且还不止一组而是三组数据出锅了！！1</p>
+<p>看了看拍出来的错误，花了半个小时手摸了一波，<s>惊讶地</s>发现 A 做法锅了。然后我做了一个本次省选最错误的决定：硬刚 A。刚到 12:50 毫无收获，赶紧收手写 B 暴力。把傻逼错误二分答案给写了，然后在 13:29 的时候瞬间想出 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mo separator="true">,</mo><mi>m</mi><mo>≤</mo><mn>3</mn></mrow><annotation encoding="application/x-tex">n,m\le3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8304100000000001em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">n</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">m</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span></span></span></span> 的做法，<s>快乐</s>遗憾离场。</p>
+<p>估分：40+30+16=86，略低于大众分。唉。</p>
+<p>心态爆炸。回家跟父母沟通了一下，调整了心态，教练又跟我聊了一波，心态逐渐平和。安详迎接 Day 2。</p>
+<p>打了半晚上板子，一个没考。</p>
+<h3 id="day-2">Day 2</h3>
+<p>神 jiangly 又来送考了，又亲自发了一波旺仔牛奶（（（</p>
+<p>进场没给密码，先码一个 NTT 板子。我不信今年没有多项式题。</p>
+<p>8:25 的时候 NTT 板子刚好打完，也下发了密码。今年确实没有多项式题。</p>
+<p>看了一遍题，A 是道数据结构而且部分分巨多，B 数据范围看着不太对劲，可能是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><msup><mn>2</mn><mi>n</mi></msup><mi>n</mi><mi>m</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(2^nnm)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span><span class="mord mathdefault">n</span><span class="mord mathdefault">m</span><span class="mclose">)</span></span></span></span> 或者 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><msup><mn>3</mn><mi>n</mi></msup><mi>m</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(3^nm)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord">3</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span><span class="mord mathdefault">m</span><span class="mclose">)</span></span></span></span> 之类，C 是我不会的一般图支配树，再细看一眼发现 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mo>≤</mo><mn>3000</mn></mrow><annotation encoding="application/x-tex">n\le3000</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span></span></span></span>。</p>
+<p>吸取昨天教训，先把暴力打满。A 的 30 挺傻逼，写个倍增就跑了；B 枚举排列暴力 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><mi>n</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mclose">)</span></span></span></span> 判断居然给了 60，出题人专业防丢人；C 没啥太好的想法，只知道可以最暴力的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><msup><mi>n</mi><mn>3</mn></msup><mi mathvariant="normal">/</mi><mi>w</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(n^3/w)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mord">/</span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mclose">)</span></span></span></span> 算出每个点的支配点集，然后直接究极暴力 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><msup><mi>n</mi><mn>4</mn></msup><mi mathvariant="normal">/</mi><mi>w</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(n^4/w)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span><span class="mord">/</span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mclose">)</span></span></span></span> 计算答案。一开始觉得很傻逼考虑优化，后来仔细分析一波发现好像可以稳过 75，直接上手开码。希望数据给的随机一点，说不定能水过（（（（</p>
+<p>搞完这些还剩 2h 左右，于是看看 A 能不能多拿点分。发现 50 可以拆成树剖区间做，爆码 3K 居然一遍过。仔细思考一下链的情况发现是傻逼并查集，大概思路就是正着扫一遍反着扫一遍这条链，每一次把当前颜色上的所有点合到下一个颜色上，再给当前颜色开一个点。快乐的开始写和对拍，快乐的写挂了，快乐的没调出来，快乐的跑路。</p>
+<p>估分 ：50+60+75=185，还挺行。</p>
+<p>晚上跟红太阳以及高二的学长们出去聚餐，玩得很开心，被万恶的邓本主义压榨了一波劳动力（）。只可惜这可能是我跟大多数高二的哥哥们的最后一次相聚了。</p>
+<h3 id="后记">后记</h3>
+<p>随机数据下跑出来是 80+0+16+70+60+100=326，表现良好。但毕竟是随机数据，D1T1 和 D2T3 都没对我下手，官方数据十有八九不会这么良心。</p>
+<p>另外，高二的哥哥们，后会有期。我最尊敬的选手 HenryHuang 黄老师，我在机房最好的朋友 konjacq 邓老师，还有谦虚的 wzhh 谢老师。</p>
+<p>杨姐就不说了，这人进队稳如老狗。另外随机数据估了一波分，感觉黄老师挺可以进队的，希望如此。</p>
+<h3 id="后后记">后后记</h3>
+<p>D1T1 空间算错了，100 → 0，最后 0+0+16+70+60+75=221。D2T3 对我下手了，D1T1 已经不用他下手了，我自己来。（（（</p>
+<p>而且因为 NOIP 考爆了所以变成 321 其实也进不了队（（（</p>
+<p>杨姐就不说了，这人进队稳如老狗。黄老师直接爆砍 371 进队了！！1</p>
+<p>可惜以后机房里还是少了 konjacq 和 wzhh 二人。whk 加油啊！</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://bindir0-github-io.vercel.app/tag/WB_1raepF/" class="tag">
+                    游记
+                  </a>
+                
+              </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'd69b386b9079fefa4628',
+        clientSecret: '609995ff5a2753309baf4d9cb13dabf9d97f9cf0 ',
+        repo: 'talk',
+        owner: 'Bindir0',
+        admin: ['Bindir0'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
